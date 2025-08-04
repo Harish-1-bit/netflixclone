@@ -1,0 +1,1031 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            z-index: 1;
+            box-sizing: border-box;
+            background-color: black;
+        }
+
+        .top-box {
+            box-shadow: inset 0px 26px 18px -17px black;
+            height: 110vh;
+            width: 100%;
+            background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/a927b1ee-784d-494a-aa80-cf7a062d2523/web/IN-en-20250714-TRIFECTA-perspective_5acb7337-c372-45ec-ae12-ddb110e6ad78_large.jpg");
+            background-position: top;
+            background-size: cover;
+        }
+
+        nav {
+            background: transparent;
+            background-color: rgba(0, 0, 0, 0.692);
+            z-index: 30;
+            overflow: visible;
+            height: 15vh;
+            width: 100%;
+            display: flex;
+            gap: 40px;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .default-ltr-cache-1d568uk {
+            width: 9.25rem;
+            height: 2.5rem;
+            color: rgb(229, 9, 20);
+            fill: currentColor;
+            display: block;
+        }
+
+        .lang {
+            padding-right: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            height: 5vh;
+            width: 50%;
+        }
+
+        .lang button:nth-child(1) {
+            font-weight: 600;
+            font-family: "Martel Sans", sans-serif;
+            background-color: rgba(27, 27, 27, 0.801);
+            border: 1px solid rgba(255, 255, 255, 0.575);
+            border-radius: 5px;
+            width: 20%;
+            height: 5vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            cursor: pointer;
+        }
+
+        .lang button:nth-child(1) p {
+            padding-top: 5px;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .lang button:nth-child(1) svg path {
+            font-size: 3rem;
+        }
+
+        .lang button:nth-child(2) {
+            width: 10%;
+            height: 100%;
+            border-radius: 5px;
+            margin-left: 15px;
+            color: white;
+            background-color: red;
+            border: none;
+            cursor: pointer;
+        }
+
+        .nav-details {
+            padding-top: 70px;
+            width: 100%;
+            height: 85vh;
+            background-color: rgba(0, 0, 0, 0.692);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            color: white;
+        }
+
+        .text1 {
+            width: 50%;
+            height: 30%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-evenly;
+            gap: 18px;
+        }
+
+        .text1 p:nth-child(1) {
+            line-height: 70px;
+            text-align: center;
+            font-size: 3.6rem;
+            font-weight: 800;
+            font-family: "TikTok Sans", sans-serif;
+        }
+
+        .text1 p:nth-child(2) {
+            font-size: 1.25rem;
+            font-family: sans-serif;
+            font-weight: 600;
+        }
+
+        .text2 {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            flex-direction: column;
+        }
+
+        .text2 p {
+            font-size: 1rem;
+            font-family: sans-serif;
+            font-weight: 600;
+        }
+
+        .inp {
+            width: 42%;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .inp input {
+            padding-left: 10px;
+            border-radius: 7px;
+            height: 9vh;
+            width: 35vw;
+            border: 1px solid rgba(192, 192, 192, 0.801);
+            background-color: rgba(27, 27, 27, 0.884);
+            color: white;
+        }
+
+        .inp button {
+            border-radius: 5px;
+            height: 9vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            background-color: #E50914;
+            width: 40%;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .inp button p {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .box {
+            width: 100%;
+            background-color: black;
+        }
+
+        .radialgra {
+            position: relative;
+            bottom: 68px;
+            z-index: 30;
+            height: 20vh;
+            background: #000000;
+            border-radius: 100% 100% 0px 0px;
+            background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+        }
+
+        .box2 {
+            padding: 0;
+            position: relative;
+            top: 4px;
+            height: 20vh;
+            width: 100%;
+            display: flex;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            border-radius:100% 100% 0px 0px;
+            background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+        }
+
+        ::placeholder {
+            color: silver;
+            font-size: 1rem;
+            font-family: sans-serif;
+        }
+
+        .cards {
+            overflow: hidden;
+            position: relative;
+            z-index: 300;
+            bottom: 110px;
+            height: 50vh;
+            width: 100%;
+            background-color: none;
+            color: white;
+        }
+
+        .cards p {
+            margin-left: 150px;
+            font-size: 1.6rem;
+            font-family: "TikTok Sans", sans-serif;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .grid-box {
+            padding-left: 60px;
+            width: 100%;
+            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(5, 180px);
+            grid-template-rows: 250px;
+            gap: 40px;
+        }
+
+        .gbox {
+            border-radius: 10px;
+            transition: all 0.27s;
+            position: relative;
+        }
+
+        .gbox img {
+            z-index: 999;
+            height: 250px;
+            width: 180px;
+            border-radius: 10px;
+        }
+
+        .gbox p {
+            font-family: "Noto Sans", sans-serif;
+            -webkit-text-stroke: 0.1rem rgb(255, 255, 255);
+            text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+            color: black;
+            position: absolute;
+            right: 155px;
+            bottom: 0px;
+            font-size: 6.5rem;
+            font-weight: 800;
+            margin: 0;
+        }
+
+        .gbox:hover {
+            transform: scale(1.05);
+            border-radius: 10px;
+        }
+
+        .cards button {
+            padding-left: 10px;
+            height: 45vh;
+            width: 10vw;
+            position: relative;
+            bottom: 290px;
+            left: 1290px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: black;
+            border: none;
+            cursor: pointer;
+        }
+
+        .cards button svg {
+            border-radius: 15px;
+            height: 40%;
+            color: white;
+            background-color: #333333;
+        }
+
+        .reasons-section {
+            position: relative;
+            bottom: 8vh;
+            width: 100%;
+            height: max-content;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .reasons-section p {
+            width: 79%;
+            color: white;
+            font-size: 1.6rem;
+            font-family: "TikTok Sans", sans-serif;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .reasons-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 255px);
+            grid-template-rows: 310px;
+            gap: 16px;
+        }
+
+        .reason-box {
+            height: 100%;
+            width: 100%;
+            padding-left: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 10px;
+            border-radius: 10px;
+            background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+        }
+
+        .reasontext {
+            height: 60%;
+            width: 100%;
+        }
+
+        .reasontext p:nth-child(2) {
+            padding-right: 10px;
+            height: 25%;
+            width: 100%;
+            font-size: 1rem;
+            color: silver;
+        }
+
+        .svg {
+            height: 25%;
+            width: 95%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        .reason-box:nth-child(1) p:nth-child(1) {
+            font-size: 1.52rem;
+            font-weight: 600;
+        }
+
+        .reason-box:nth-child(1) p:nth-child(2) {
+            height: 50%;
+            width: 100%;
+            font-size: 1rem;
+            color: silver;
+        }
+
+        .question-section {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .question-section p {
+            width: 79%;
+            color: white;
+            font-size: 1.6rem;
+            font-family: "TikTok Sans", sans-serif;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .question-section div {
+            height: 13vh;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            background-color: #2e2e2e;
+            justify-content: space-around;
+            gap: 50px;
+            cursor: pointer;
+        }
+
+        .question-section div p {
+            padding-top: 10px;
+            color: white;
+        }
+
+        .question-section div svg {
+            color: white;
+        }
+
+        footer {
+            height: 115vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-direction: column;
+        }
+
+        footer .text2 {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            flex-direction: column;
+        }
+
+        footer .text2 p {
+            color: white;
+            font-size: 1rem;
+            font-family: sans-serif;
+            font-weight: 500;
+        }
+
+        footer .text2 .inp {
+            width: 58%;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        footer .text2 .inp input {
+            padding-left: 10px;
+            border-radius: 5px;
+            height: 9vh;
+            width: 40vw;
+            border: 1px solid rgba(192, 192, 192, 0.452);
+            background-color: #0F0F0F;
+            color: white;
+        }
+
+        footer .text2 .inp button {
+            border-radius: 5px;
+            height: 9vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            background-color: #E50914;
+            width: 28%;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer .text2 .inp button p {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .foot-details {
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+            width: 79%;
+            align-items: flex-start;
+        }
+
+        .para {
+            font-family: "Noto Sans", sans-serif;
+            gap: 7px;
+            display: flex;
+            width: 80%;
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.671);
+        }
+
+        .details {
+            display: flex;
+            width: 100%;
+        }
+
+        .details .box {
+            width: 25%;
+        }
+
+        .details .box p {
+            line-height: 35px;
+            font-size: 0.9rem;
+            text-decoration: underline;
+            color: rgba(255, 255, 255, 0.671);
+            font-family: "Noto Sans", sans-serif;
+        }
+
+        .foot-details button {
+            font-weight: 600;
+            font-family: "Martel Sans", sans-serif;
+            background-color: #0F0F0F;
+            border: 1px solid rgba(255, 255, 255, 0.575);
+            border-radius: 5px;
+            width: 11%;
+            height: 5vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            cursor: pointer;
+        }
+
+        .foot-details button p {
+            padding-top: 5px;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .foot-details button svg path {
+            font-size: 3rem;
+        }
+
+        .foot-details > p {
+            line-height: 20px;
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.671);
+            font-family: "Noto Sans", sans-serif;
+        }
+
+        .foot-details > p a {
+            color: #398ECD;
+        }
+
+        #hidebox {
+            display: none;
+        }
+
+
+        @media (max-width: 1023px) and (min-width: 768px) {
+            .top-box {
+                height: 80vh;
+            }
+
+            nav {
+                height: 12vh;
+                gap: 20px;
+                padding: 0 20px;
+            }
+
+            .default-ltr-cache-1d568uk {
+                width: 7rem;
+                height: 2rem;
+            }
+
+            .lang {
+                width: 60%;
+                padding-right: 15px;
+            }
+
+            .lang button:nth-child(1) {
+                width: 30%;
+                font-size: 0.9rem;
+            }
+
+            .lang button:nth-child(2) {
+                width: 15%;
+                font-size: 0.9rem;
+            }
+
+            .nav-details {
+                height: 68vh;
+                padding-top: 40px;
+            }
+
+            .text1 {
+                width: 70%;
+            }
+
+            .text1 p:nth-child(1) {
+                font-size: 2.8rem;
+                line-height: 55px;
+            }
+
+            .text1 p:nth-child(2) {
+                font-size: 1.1rem;
+            }
+
+            .inp {
+                width: 60%;
+            }
+
+            .inp input {
+                width: 45vw;
+                height: 8vh;
+            }
+
+            .inp button {
+                height: 8vh;
+                width: 35%;
+            }
+
+            .inp button p {
+                font-size: 1.3rem;
+            }
+
+            .cards {
+                bottom: 80px;
+                height: 45vh;
+            }
+
+            .cards p {
+                margin-left: 80px;
+                font-size: 1.4rem;
+            }
+
+            .grid-box {
+                padding-left: 40px;
+                grid-template-columns: repeat(4, 160px);
+                gap: 30px;
+            }
+
+            .gbox img {
+                height: 220px;
+                width: 160px;
+            }
+
+            .gbox p {
+                font-size: 5.5rem;
+                position: absolute;
+            right: 130px;
+            bottom: 20px;
+            }
+
+            .gbox:nth-child(5) {
+                display: none;
+            }
+
+            .cards button {
+                left: 900px;
+                width: 12vw;
+            }
+
+            .reasons-grid {
+                grid-template-columns: repeat(2, 300px);
+                grid-template-rows: repeat(2, 310px);
+                gap: 20px;
+            }
+
+            .reason-box {
+                padding: 20px;
+            }
+
+            .question-section {
+                height: 80vh;
+            }
+
+            .question-section div {
+                width: 85%;
+                height: 12vh;
+            }
+
+            footer .text2 .inp {
+                width: 70%;
+            }
+
+            footer .text2 .inp input {
+                width: 50vw;
+            }
+
+            footer .text2 .inp button {
+                width: 30%;
+            }
+
+            .foot-details {
+                width: 85%;
+            }
+
+            .details {
+                flex-wrap: wrap;
+            }
+
+            .details .box {
+                width: 50%;
+                margin-bottom: 20px;
+            }
+
+            .foot-details button {
+                width: 15%;
+            }
+        }
+
+
+        @media (max-width: 767px) {
+            .top-box {
+                height: 90.5vh;
+                background-position: center;
+            }
+
+            nav {
+                height: 10vh;
+                gap: 10px;
+                padding: 0 15px;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .default-ltr-cache-1d568uk {
+                width: 5rem;
+                height: 1.5rem;
+            }
+
+            .lang {
+                width: auto;
+                padding-right: 0;
+                gap: 10px;
+            }
+
+            .lang button:nth-child(1) {
+                width: 100px;
+                height: 40px;
+                font-size: 0.8rem;
+                padding: 5px;
+            }
+
+            .lang button:nth-child(1) p {
+                font-size: 0.8rem;
+                padding-top: 2px;
+            }
+
+            .lang button:nth-child(2) {
+                width: 80px;
+                height: 40px;
+                font-size: 0.8rem;
+                margin-left: 10px;
+            }
+
+            .nav-details {
+                height: 60vh;
+                padding-top: 20px;
+                gap: 15px;
+            }
+
+            .text1 {
+                width: 90%;
+                height: 40%;
+                gap: 15px;
+            }
+
+            .text1 p:nth-child(1) {
+                font-size: 2rem;
+                line-height: 40px;
+            }
+
+            .text1 p:nth-child(2) {
+                font-size: 1rem;
+                text-align: center;
+            }
+
+            .text2 {
+                height: 40%;
+                gap: 15px;
+            }
+
+            .text2 p {
+                font-size: 0.9rem;
+                text-align: center;
+                padding: 0 20px;
+            }
+
+            .inp {
+                width: 90%;
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .inp input {
+                width: 100%;
+                height: 7vh;
+            }
+
+            .inp button {
+                width: 100%;
+                height: 7vh;
+            }
+
+            .inp button p {
+                font-size: 1.2rem;
+            }
+
+            .cards {
+                bottom: 50px;
+                height: 35vh;
+            }
+
+            .cards p {
+                margin-left: 20px;
+                font-size: 1.2rem;
+            }
+
+            .grid-box {
+                padding-left: 20px;
+                display: flex;
+                overflow-x: auto;
+                grid-template-columns: none;
+                gap: 20px;
+                scroll-snap-type: x mandatory;
+            }
+
+            .gbox {
+                flex: 0 0 auto;
+                scroll-snap-align: end;
+            }
+
+            .gbox img {
+                height: 180px;
+                width: 120px;
+            }
+
+            .gbox p {
+                font-size: 4rem;
+                position: absolute;
+                right: 100px;
+                bottom: 10px;
+            }
+
+            .gbox:nth-child(4),
+            .gbox:nth-child(5) {
+                display: block;
+            }
+
+            .cards button {
+                display: none;
+            }
+
+            .reasons-section {
+                bottom: 5vh;
+            }
+
+            .reasons-section p {
+                width: 90%;
+                font-size: 1.4rem;
+                text-align: center;
+            }
+
+            .reasons-grid {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+
+            .reason-box {
+                width: 90%;
+                height: 250px;
+                padding: 20px;
+            }
+
+            .reasontext p:nth-child(1) {
+                font-size: 1.3rem !important;
+            }
+
+            .reasontext p:nth-child(2) {
+                font-size: 0.9rem;
+                height: auto;
+            }
+
+            #hidebox {
+                display: flex;
+            }
+
+            .question-section {
+                height: auto;
+                padding: 40px 0;
+            }
+
+            .question-section p {
+                width: 90%;
+                font-size: 1.4rem;
+                text-align: center;
+            }
+
+            .question-section div {
+                width: 90%;
+                height: 10vh;
+                gap: 20px;
+                padding: 0 20px;
+            }
+
+            .question-section div p {
+                font-size: 0.9rem;
+                width: 85%;
+                text-align: left;
+            }
+
+            footer {
+                height: auto;
+                padding: 40px 0;
+            }
+
+            footer .text2 {
+                height: auto;
+                padding: 40px 0;
+                gap: 20px;
+            }
+
+            footer .text2 p {
+                font-size: 0.9rem;
+                text-align: center;
+                padding: 0 20px;
+            }
+
+            footer .text2 .inp {
+                width: 90%;
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            footer .text2 .inp input {
+                width: 100%;
+                height: 7vh;
+            }
+
+            footer .text2 .inp button {
+                width: 100%;
+                height: 7vh;
+            }
+
+            footer .text2 .inp button p {
+                font-size: 1.2rem;
+            }
+
+            .foot-details {
+                width: 90%;
+                gap: 25px;
+            }
+
+            .para {
+                width: 100%;
+                flex-direction: column;
+                gap: 0;
+                text-align: center;
+            }
+
+            .details {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .details .box {
+                width: 100%;
+            }
+
+            .details .box p {
+                line-height: 30px;
+                font-size: 0.8rem;
+            }
+
+            .foot-details button {
+                width: 120px;
+                height: 45px;
+                align-self: center;
+            }
+
+            .foot-details button p {
+                font-size: 0.8rem;
+            }
+
+            .foot-details > p {
+                font-size: 0.7rem;
+                text-align: center;
+                line-height: 18px;
+            }
+        }
+
+        @media (max-width: 480px) {
+
+            .text1 p:nth-child(1) {
+                font-size: 1.5rem;
+                line-height: 35px;
+            }
+            .text1 p:nth-child(2) {
+                font-size: 1rem;
+                line-height: 35px;
+            }
+            .inp{
+                margin-top: 20px;
+            }
+            .grid-box {
+                padding-left: 15px;
+            }
+
+            .gbox img {
+                height: 160px;
+                width: 110px;
+            }
+
+            .gbox p {
+                scroll-snap-type: start;
+                font-size: 3.5rem;
+                position: absolute;
+                right: 9px;
+                bottom: 0px;
+            }
+
+            .reason-box {
+                width: 95%;
+                padding: 15px;
+            }
+
+            .reasontext p:nth-child(1) {
+                font-size: 1.2rem !important;
+            }
+
+            .question-section div {
+                width: 95%;
+            }
+
+            .foot-details button {
+                width: 100px;
+            }
+        }
+  
