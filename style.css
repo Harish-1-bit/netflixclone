@@ -409,7 +409,7 @@
         }
 
         footer {
-            height: 115vh;
+            height: 105vh;
             width: 100%;
             display: flex;
             align-items: center;
@@ -1026,6 +1026,9 @@
 
             .foot-details button {
                 width: 100px;
+            }
+            footer{
+                height: 125vh;
             }
         }
   
