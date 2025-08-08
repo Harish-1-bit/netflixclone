@@ -186,17 +186,20 @@
             position: relative;
             bottom: 68px;
             z-index: 30;
-            height: 20vh;
+            height: 11vh;
             background: #000000;
             border-radius: 100% 100% 0px 0px;
+                border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom: none;
             background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
         }
 
         .box2 {
             padding: 0;
             position: relative;
-            top: 4px;
-            height: 20vh;
+            top: 5px;
+            height: 10vh;
             width: 100%;
             display: flex;
             -webkit-align-items: center;
@@ -204,6 +207,9 @@
             -ms-flex-align: center;
             align-items: center;
             border-radius:100% 100% 0px 0px;
+                border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom: none;
             background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
             -webkit-background-clip: padding-box;
             background-clip: padding-box;
@@ -216,13 +222,14 @@
         }
 
         .cards {
+            padding-top: 30px;
             overflow: hidden;
             position: relative;
             z-index: 300;
-            bottom: 110px;
+            bottom: 80px;
             height: 50vh;
             width: 100%;
-            background-color: none;
+            background-color: black;
             color: white;
         }
 
@@ -797,8 +804,8 @@
             }
 
             .cards {
-                bottom: 50px;
-                height: 35vh;
+                bottom: 80px;
+                height: 45vh;
             }
 
             .cards p {
@@ -807,12 +814,11 @@
             }
 
             .grid-box {
-                padding-left: 20px;
+                padding-inline: 20px;
                 display: flex;
-                overflow-x: auto;
                 grid-template-columns: none;
                 gap: 20px;
-                scroll-snap-type: x mandatory;
+
             }
 
             .gbox {
@@ -834,7 +840,7 @@
 
             .gbox:nth-child(4),
             .gbox:nth-child(5) {
-                display: block;
+                display: none;
             }
 
             .cards button {
@@ -991,6 +997,10 @@
                 font-size: 1rem;
                 line-height: 35px;
             }
+            .cards{
+                position: relative;
+                bottom: 90px;
+            }
             .inp{
                 margin-top: 20px;
             }
@@ -1030,5 +1040,31 @@
             footer{
                 height: 125vh;
             }
+            .radialgra {
+            position: relative;
+            bottom: 68px;
+            z-index: 999;
+            height: 9vh;
+            background: #000000;
+            border-radius: 100% 100% 0px 0px;
+            background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+        }
+
+        .box2 {
+            padding: 0;
+            position: relative;
+            top: 4px;
+            height: 10vh;
+            width: 100%;
+            display: flex;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            border-radius:100% 100% 0px 0px;
+            background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+        }
         }
   
